@@ -6,7 +6,7 @@ from Abhi import app
 from Config import Config
 
 
-OWNER_ID = config.OWNER_ID
+OWNER_ID = Config.OWNER_ID
 
 # Load or create sudo list
 SUDO_FILE = "sudo_users.json"
