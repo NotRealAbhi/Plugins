@@ -2,8 +2,8 @@ import json
 import os
 from pyrogram import filters
 from pyrogram.types import Message
-from Player import app
-from config import config
+from Abhi import app
+from Config import Config
 
 
 OWNER_ID = config.OWNER_ID
