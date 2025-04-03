@@ -5,7 +5,7 @@ Copyright ©️ 2025
 
 
 from pyrogram import filters
-from Player import app
+from Abhi import app
 from Abhi.Misc import _boot_
 from Abhi.Utils.Formaters import get_readable_time
 import Config
