@@ -8,7 +8,7 @@ def read_requirements():
 setup(
     name="AbhiMusicPlug",
     version="1.0",
-    packages=find_packages(include=["Abhi", "Abhi.*"]),
+    packages=find_packages(include=["Abhi", "Abhi.Core", "Config", "cookies"]),
     install_requires=read_requirements(),
     author="Abhi",
     author_email="abhishekbanshiwal2005@gmail.com",
