@@ -20,12 +20,7 @@ call = MusicUser
 
 seek_chats = {}
 
-import unittest
-from Abhi.Test import greet
 
-class TestExamplePlugin(unittest.TestCase):
-    def test_greet(self):
-        self.assertEqual(greet("Abhi"), "Hello, Abhi! This is a plugin.")
 
-if __name__ == '__main__':
-    unittest.main()
+def greet(name: str) -> str:
+    return f"Hello, {name}! This is a plugin."
