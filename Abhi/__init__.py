@@ -19,3 +19,6 @@ call = MusicUser
 
 
 seek_chats = {}
+
+def greet(name):
+    return f"Hello, {name}! This is a plugin."
