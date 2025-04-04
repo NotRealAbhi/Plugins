@@ -23,7 +23,6 @@ pip install AbhiMusicPlug
 
 ---
 
-### How To Use
+## 🌚 How To Use
 
-```bash
 from Abhi import call, app
