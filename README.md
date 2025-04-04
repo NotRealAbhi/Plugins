@@ -20,3 +20,8 @@ You can install this package directly (once published):
 
 ```bash
 pip install AbhiMusicPlug
+
+## Usage / Example
+from Abhi import greet
+
+print(greet())  # Output: Hello! This is a plugin.
