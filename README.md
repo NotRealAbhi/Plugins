@@ -20,9 +20,3 @@ You can install this package directly (once published):
 
 ```bash
 pip install AbhiMusicPlug
-
----
-
-## 🌚 How To Use
-
-from Abhi import call, app
