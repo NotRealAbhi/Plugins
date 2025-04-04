@@ -1,10 +1,15 @@
 from setuptools import setup, find_packages
 
+def read_requirements():
+    with open("requirements.txt", "r") as f:
+        return f.read().splitlines()
+
+
 setup(
     name="AbhiMusicPlug",
     version="1.0",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=read_requirements(),
     author="Abhi",
     author_email="abhishekbanshiwal2005@gmail.com",
     description="A plugin package for reuse",
