@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 from pytgcalls.types import GroupCallParticipant
 
-from Player.Core.Bot import MusicBot, MusicUser
+from Abhi.Core.Bot import MusicBot, MusicUser
 from .Logging import LOGGER
 from Abhi.Misc import sudo
 
