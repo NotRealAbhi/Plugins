@@ -8,9 +8,9 @@ from pyrogram import Client, filters
 from pytgcalls import PyTgCalls
 from pytgcalls.types import GroupCallParticipant
 
-from .Cores.Bot import MusicBot, MusicUser
+from .Core.Bot import MusicBot, MusicUser
 from .Logging import LOGGER
-from Abhi.Misc import sudo
+from .Misc import sudo
 
 sudo()
 
