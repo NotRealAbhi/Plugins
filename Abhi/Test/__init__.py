@@ -1,1 +1,1 @@
-from .Test import greek
+from .Test import greet
