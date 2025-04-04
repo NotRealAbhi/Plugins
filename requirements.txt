@@ -6,4 +6,3 @@ tgcrypto
 speedtest-cli
 ffprobe
 httpx
-unittest
