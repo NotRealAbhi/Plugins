@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+def read_requirements():
+     with open("requirements.txt", "r") as f:
+         return f.read().splitlines()
+
+
 setup(
     name="AbhiMusicPlug",
     version="1.0.0",
@@ -10,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/NotRealAbhi/Plugins",
     packages=find_packages(),
-    install_requires=open("requirements.txt").read().splitlines(),
+    install_requires=read_requirements(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
