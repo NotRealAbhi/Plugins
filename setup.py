@@ -15,7 +15,16 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/NotRealAbhi/Plugins",
     packages=find_packages(),
-    install_requires=read_requirements(),
+    install_requires=[
+    "pyrofork",
+    "py-tgcalls",
+    "youtube-search-python",
+    "yt-dlp",
+    "tgcrypto",
+    "httpx",
+    "speedtest-cli",
+    "ffprobe",
+],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
