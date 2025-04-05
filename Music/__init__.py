@@ -3,14 +3,12 @@ Telegram @Itz_Your_4Bhi
 Copyright ©️ 2025
 """
 
-import asyncio
-from pyrogram import Client, filters
-from pytgcalls import PyTgCalls
-from pytgcalls.types import GroupCallParticipant
+from .Logging import *
+from .Misc import *
+from .Utils import *
+from .Core import *
+from .Plugins import *
 
-from .Core.Bot import MusicBot, MusicUser
-from .Logging import LOGGER
-from .Misc import sudo
 
 sudo()
 
