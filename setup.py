@@ -7,7 +7,7 @@ def read_requirements():
 
 setup(
     name="AbhiMusicPlug",
-    version="1.0.0",
+    version="1.1.0",
     author="AbhiShek",
     author_email="abhishekbanshiwal2005@gmail.com",
     description="A Telegram Music Plugin System",
